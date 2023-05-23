@@ -1,6 +1,6 @@
 import fs from 'fs'
 
-class ProductManager {
+ export default class ProductManager {
     constructor()  {
         this.patch = "./productos.txt"
         this.products = []
